@@ -1,0 +1,52 @@
+{
+  "id": 43423,
+  "name": "Rails 2",
+  "points": 45,
+  "studentId": "Andy Wynkoop",
+  "photoUrl": "https://progress-tracker.s3-us-west-1.amazonaws.com/andy-photo.png",
+  "startTime": 1579800889965,
+  "endTime": 1579801889965,
+  "tasks": [
+    {
+      "id": 123,
+      "name": "task1",
+      "ord": "1",
+      "submittedAt": 1579801889965,
+      "questions": [
+        {
+          "id": 765,
+          "ord": 1,
+          "body": "What is this answer?",
+          "points": 3,
+          "score": null,
+          "isMultipleChoice": true,
+          "answers": [
+            {
+              "id": 1,
+              "body": "Yes",
+              "isCorrect": false,
+              "isSelected": true
+            },
+            {
+              "id": 1,
+              "body": "No",
+              "isCorrect": true,
+              "isSelected": false
+            }
+          ]
+
+        },
+        {
+          "id": 766,
+          "ord": 2,
+          "body": "What is this long answer?",
+          "points": 5,
+          "score": null,
+          "isMultipleChoice": false,
+          "scoringGuide": "Full Credit: Gives a long answer including details that demonstrate understanding of the topic",
+          "answer": "Not a very good answer"
+        }
+      ]
+    }
+  ]
+}
